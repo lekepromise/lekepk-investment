@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #78767b;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+}
+b{
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+nav{
+    background-color: #49ffff;
+    display: flex;
+    flex-direction: row;
+}
+.navi{
+    margin: 0 800px 0 100px;
+}
+.nava{
+    margin-top: 20px;
+}
+.nava a{
+    padding: 20px;
+    color: silver;
+    text-decoration: none;
+}
+.hero{
+    height: 700px;
+    background-image: url(photo-1563986768711-b3bde3dc821e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero p{
+    font-size: x-large;
+    padding: 10px 0 0 0;
+    color: #fff60d;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.hero h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.hero1{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 0 50px 0; */
+    /* background-color: rgba(0, 0, 0, 0.656); */
+}
+.hero1 img{
+    width: 1000px;
+    height: 450px;
+}
+.hero2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* background-color: rgba(0, 0, 0, 0.656); */
+}
+.hero2 img{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+}
+.hero-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.hero-con p, button, b, h1{
+    margin-right: 30px;
+}
+.hero-con p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.hero-con b{
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.hero-con button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    background-color: lightblue;
+    margin-top: 5px;
+}
+.ser h1{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 45px;
+    color: whitesmoke;
+}
+.ser{
+    /* background-color: rgba(0, 0, 0, 0.656); */
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 100px;
+    margin-bottom: -80px;
+}
+.hero3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero-con1{
+    margin-right: 50px;
+}
+.hero-con1 p{
+    margin-top: 120px;
+    color: whitesmoke;
+    font-size: large;
+}
+.hero-con1 b{
+    color: whitesmoke;
+    font-size: x-large;
+}
+.hero-con2{
+    display: flex;
+    flex-direction: column;
+}
+.hero-con2a{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 15px 0;
+}
+.hero3 label{
+    color: whitesmoke;
+}
+.hero-con2a input{
+    height: 25px;
+    width: 280px;
+    border: none;
+    border-radius: 2px;
+    background-color: silver;
+}
+.part1{
+    margin: 0 10px 0 0;
+}
+.hero-con2 textarea{
+    height: 100px;
+    border-radius: 5px;
+    background-color: silver;
+}
+.hero-con2 button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+.hero4{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 700px;
+}
+iframe{
+    width: 1240px;
+    height:563px ;
+}
+.hero5{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.hero5 h1{
+    font-size: 40px;
+}
+.hero5 p{
+    font-size: large;
+    margin-top: 10px;
+}
+footer{
+    background-color: #ffdb4f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+footer div{
+    padding: 0 320px 0 300px;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        width: 500px;
+    }
+    .navi{
+        margin: 0 100px 0 20px;
+    }
+    .hero{
+        width: 500px;
+    }
+    .hero p{
+        font-size: medium;
+        padding: 5px 0 0 0;
+        color: #e2e2e2;
+        width: 380px;
+        
+    }
+    .hero1{
+        height: 400px;
+    }
+    .hero h1{
+       margin: 0 0 0 20px;
+    }
+    .hero1{
+        height: 400px;
+    }
+    .hero1 img{
+        width: 400px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    .hero2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1500px;
+        width: 500px;
+        /* background-color: rgba(0, 0, 0, 0.656); */
+    }
+    .hero-con{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+    .ser{
+        margin: 40px 30px -50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+    iframe{
+        width: 450px;
+        height: 550px;
+    }
+    .hero3{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: 450px;
+        margin-left: 20px;
+        background-size: cover;
+    }
+    .hero-con1{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .hero-con2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .hero-con2a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 20px; */
+        margin-top: 25px;
+    }
+    .hero-con2 textarea{
+        width: 370px;
+        height: 250px;
+    }
+    .hero-con2 button{
+        margin-top: 10px;
+        /* margin-left: 23px; */
+    }
+    .hero-con2 label{
+        align-self: self-start;
+    }
+    .hero-con2a label{
+        margin: 20px 0;
+        
+    }
+    .hero3 input{
+        width: 370px;
+        height: 45px;
+        border-radius: 5px;
+    }
+    .hero-con1 p{
+        margin-top: 20px;
+        color: whitesmoke;
+        /* margin-left: 50px; */
+    }
+    .hero-con1 b{
+        /* margin-left: 20px; */
+    }
+    .hero5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 500px;
+    }
+    .hero5 p, h1{
+        margin: 0 30px;
+    }
+    footer{
+        background-color: #ffdb4f;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 300px;
+    }
+    footer div{
+        padding: 0;
+    }
+    .img-fot img{
+       margin-left: 30px; 
+       width: 250px;
+    }
+    .contact{
+        margin-top: 80px;
+    }
+    .contact a{
+        margin-left: 30px; 
+        padding: 5px;
+     }
+    .contact img{
+        width: 60px;
+    }
+}
